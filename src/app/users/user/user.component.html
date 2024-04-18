@@ -1,0 +1,10 @@
+<div >
+    <h1><i class="fa-solid fa-circle-info"></i>User information
+        <i class="fa-regular fa-trash-can delete" (click)="deleteUser()"></i>
+    </h1> 
+    <h2>First name: {{user.firstName}}</h2> 
+    <h2>Last name: {{user.lastName}}</h2> 
+    <h2>Last name: {{user.email}}</h2> 
+    <h2>Birth date: {{user.birthDate | date:'longDate'}}</h2> 
+</div>
+

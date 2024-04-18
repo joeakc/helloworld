@@ -1,0 +1,3 @@
+<div class="user-style" *ngFor="let user of users">
+   <app-user [user]="user" (onDelete)="deleteUser($event)"></app-user>
+</div>
